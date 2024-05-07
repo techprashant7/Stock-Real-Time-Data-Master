@@ -1,0 +1,33 @@
+/* here I will include the designs of the company name and the graph section of the dashboard */
+.line {
+      
+    display: flex;
+  }
+
+  .name {
+    background-color: white;
+    border: 2px solid black;
+    margin: 21px 38px;
+    width: 17%;
+    padding: 1px 64px;
+  }
+  .symbol {
+    background-color: white;
+    border: 2px solid black;
+    margin: 21px -3px;
+    width: 2%;
+    padding: 2px 54px;
+  }
+
+  
+  .graph {
+    background-color: white;
+    border: 2px solid black;
+    height: 450px;
+    width: 60%;
+    margin: 15px;
+  }
+
+  .area {
+    display: flex;
+  }

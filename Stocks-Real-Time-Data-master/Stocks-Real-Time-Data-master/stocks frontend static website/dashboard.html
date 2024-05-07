@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="CSS/navbar.css" />
+    <link rel="stylesheet" href="CSS/price.css" />
+    <link rel="stylesheet" href="CSS/mode.css" />
+    <link rel="stylesheet" href="CSS/header.css" />
+    <link rel="stylesheet" href="CSS/graph.css" />
+    <link rel="stylesheet" href="CSS/fund.css">
+    <link rel="stylesheet" href="CSS/revenue.css">
+    <script src="JS/API.js"></script>
+    <script src="JS/get.js"></script>
+    <script src="JS/nse.js"></script>
+    <script src="JS/nse2.js"></script>
+    <script src="JS/nse3.js"></script>
+   
+
+  </head>
+  <script>window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("navbar").style.padding = "30px 10px";
+        document.getElementById("left").style.fontSize = "25px";
+      } else {
+        document.getElementById("navbar").style.padding = "80px 10px";
+        document.getElementById("left").style.fontSize = "35px";
+      }
+    }</script>
+  <style>
+    body {
+      height: 1920px;
+      background-image:  url(img/new.jpeg);
+      /* background-repeat: no-repeat; */
+      background-size: 1800px;
+      height: 1920px;
+      /* background-color: #131315; */
+    }
+
+    .both {
+      border: 2px solid black;
+      display: flex;
+    }
+
+    #trans{
+      box-shadow: 1px 1px 5px 0px 
+      rgba(82,82,0,75);
+      transition: all 150ms ease-in-out;
+    }
+
+    #trans:hover{
+      top: -3px;
+      left: -3px;
+      box-shadow: 5px 5px 20px 0px
+      rgba(82,82,0,85);
+
+
+    }
+    #trans:active{
+      top: 2px;
+      left: 2px;
+    }
+    #train:hover{
+      box-shadow: 4px 3px 2px 2px;
+     
+    }
+
+    
+    
+  
+  </style>
+  <body>
+    <header>
+      <div class="left">
+        <img src="img/logo.png" alt="" />
+      </div>
+      <div class="right">
+
+       <a href="login.html"> <button class="login">Signup</button></a>
+
+        <div class="toggle">
+          
+        </div>
+      </div>
+    </header>
+    
+    <div class="navabar">
+      <ul>
+        <li>About</li>
+        <li>Home</li>
+        <li>More</li>
+      </ul>
+    </div>
+
+    <div class="line">
+      <div class="name" id="trans">
+        <h2>Company Name</h2>
+      </div>
+
+      <div class="symbol" id="trans">
+        <h2>SYM</h2>
+      </div>
+    </div>
+
+    <div class="area">
+      <div class="graph"></div>
+    </div>
+    <div class="both">
+      <div class="price" id="trans">
+        <!--yahan par sbase bada div hai uske andar ke parts -->
+        <div class="perform">
+          <h2>Perfomance</h2>
+        </div>
+
+        <div class="height">
+          <!-- yeh wala todays high low batayega-->
+
+          <div class="low"  id="train">
+            <h3>Today's low :</h3>
+          </div>
+
+          <div class="high" id="train">
+            <h3>Today's high :</h3>
+          </div>
+        </div>
+
+        <div class="price2">
+          <div class="open" id="train">
+            <h3>Open price:</h3>
+          </div>
+
+          <div class="close" id="train">
+            <h3>Close price:</h3>
+          </div>
+        </div>
+
+        <div class="volume">
+          <div class="vol" id="train">
+            <h3>Volume:</h3>
+          </div>
+        </div>
+      </div>
+
+
+       <div class="fund" id="trans"> <!--this will show the fundammentals of the company-->
+           <div class="fundamental"> <!-- FIrst line-->
+            <h2>Fundamentals</h2>
+           </div>
+           <div class="first">
+              <div class="market" id="train">
+                <h3>Market Cap :</h3>
+              </div>
+
+              <div class="PE" id="train">
+                <h3>P/E Ratio :</h3>
+              </div>
+
+              <div class="PB" id="train">
+                <h3>P/B Ratio :</h3>
+              </div>
+
+             
+           </div>
+
+           <div class="second">  <!-- Second line-->
+               <div class="ROE" id="train">
+                <h3>ROE :</h3>
+                 </div>
+
+                <div class="EPSI" id="train">
+                  <h3>EPSI : </h3>
+
+                </div>
+
+                <div class="dividend" id="train">
+                  <h3>Dividend :Yield </h3>
+                </div>
+
+                
+
+           </div>
+
+           <div class="third">     <!--third line-->
+            <div class="industry" id="train">
+              <h3>Industry P/E </h3>
+            </div>
+
+            <div class="book" id="train">
+              <h3>Book value</h3>
+            </div>
+
+            <div class="Face" id="train">
+              <h3>Face Value</h3>
+            </div>
+            </div>
+
+
+       </div>
+    </div>
+
+    <div class="revenue">
+        
+        <div class="about">
+         <h2>About the Company</h2>
+        </div>
+
+        <div class="company">
+          
+        </div>
+    </div>
+  </body>
+</html>

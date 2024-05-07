@@ -1,0 +1,99 @@
+/* in this the styling is done in the fundamentals section */
+
+.fund{
+    border: 2px solid black;
+    margin: 15px 14px;
+    padding: 0px 35px;
+    width: 60%;
+    background-color:  rgb(227, 237, 246);
+     /* #c4c3ca; */
+   
+    border-radius: 40px;
+    opacity: .8;
+    
+}
+
+.fundamental{
+    /* border: 2px solid black; */
+    
+    margin: 15px 14px;
+  padding: 0px 35px;
+}
+.first{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    margin: 15px 23px;
+    padding: 23px 15px;
+}
+.market{
+    /* border: 2px solid black; */
+    width: 40%;
+    
+   
+}
+.PB{
+    /* border: 2px solid black; */
+    width: 30%;
+}
+.PE{
+    /* border: 2px solid black; */
+    width: 30%;
+}
+
+
+
+.second{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    margin: 15px 23px;
+    padding: 23px 15px;
+}
+
+
+.ROE{
+    /* border: 2px solid black; */
+    width: 30%;
+
+}
+.EPSI{
+    /* border: 2px solid black; */
+    width: 30%;
+
+}
+
+.dividend{
+    /* border: 2px solid black; */
+    width: 30%;
+
+}
+.third{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    margin: 15px 23px;
+    padding: 23px 15px;
+}
+
+.industry{
+    /* border: 2px solid black; */
+    width: 30%;
+
+
+}
+
+.book{
+    /* border: 2px solid black; */
+    width: 30%;
+
+
+}
+.Face{
+    /* border: 2px solid black; */
+    width: 30%;
+
+
+}
+
+

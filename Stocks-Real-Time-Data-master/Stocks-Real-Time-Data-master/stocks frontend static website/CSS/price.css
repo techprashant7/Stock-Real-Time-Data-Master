@@ -1,0 +1,60 @@
+.price {
+  /* background-color: rgba(244, 233, 233, 0.907); */
+  border: 2px solid black;
+  height: 384px;
+  width: 42%;
+  margin: 15px;
+  border-radius: 10px;
+  /* background-color: #696969; */
+  background-color:  #c4c3ca;
+  opacity: .8;
+}
+.perform {
+  margin: 37px 14px;
+  padding: 0px 35px;
+}
+.height{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+   
+    margin: -12px 11px;
+  }
+
+.low {
+  margin: 27px 23px;
+  padding: 7px 12px;
+  width: 50%;
+}
+
+.high {
+  margin: 27px 23px;
+  padding: 7px 12px;
+  width: 50%;
+}
+
+.price2 {
+  display: flex;
+
+  margin: -36px 14px;
+  padding: 0px 35px;
+}
+
+.close {
+  margin: 27px 23px;
+  padding: 7px 12px;
+  width: 34%;
+}
+
+.open {
+  margin: 27px -16px;
+  padding: 7px 12px;
+  width: 50%;
+}
+
+.volume {
+  display: flex;
+
+  margin: 15px 23px;
+  padding: 0px 35px;
+}
